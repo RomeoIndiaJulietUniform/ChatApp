@@ -1,0 +1,110 @@
+/* AddChatModal.css */
+
+.-new-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.new-modal-content {
+  background-color: #ffeeba; 
+  padding: 40px; 
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px; 
+  width: 90%;
+  align-items: center;
+}
+
+.new-modal-content .close {
+  position: relative;
+  cursor: pointer;
+}
+
+.new-modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 20px; /* Add space below h2 */
+}
+
+.new-modal-content form {
+  display: grid;
+  grid-gap: 20px; /* Add space between form elements */
+}
+
+.new-modal-content label {
+  font-weight: bold;
+}
+
+.new-modal-content input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+}
+
+.new-modal-content button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #45494d;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.new-modal-content button:hover {
+  background-color: #637f9c;
+}
+
+.new-modal-content .uidb {
+  background-color: #282b29;
+}
+
+.new-modal-content .uidb:hover {
+  background-color: #4e504e;
+}
+
+.new-modal-content .crtgrp {
+  margin-top: 20px; /* Add space above .crtgrp */
+}
+
+.new-modal-content button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.new-modal-content button:disabled:hover {
+  background-color: #ccc;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .new-modal-content {
+    width: 80%;
+  }
+  
+  .new-modal-content input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .new-modal-content {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .new-modal-content input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 6px;
+  }
+}

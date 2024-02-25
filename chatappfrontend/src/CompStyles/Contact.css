@@ -1,0 +1,93 @@
+/* Contact.css */
+
+.contact-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-heading {
+   font-size: 2rem;
+}
+
+.site-dedication {
+  font-size: 1.5rem;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 400px;
+}
+
+.contact-icon {
+  font-size: 9rem;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+}
+
+.contact-icon:hover {
+  transform: translateY(-10px); 
+}
+
+.copyright-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  color: #555;
+}
+
+.copyright-logo {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+.copyright-text {
+  font-size: 1em;
+}
+
+/* Media Queries for Mobiles */
+@media screen and (max-width: 576px) {
+  .contact-heading {
+    font-size: 1.5rem;
+  }
+
+  .site-dedication {
+    font-size: 1.2rem;
+  }
+
+  .icon-wrapper {
+    gap: 60px; 
+  }
+
+  .icon-wrapper .contact-icon {
+    font-size: 4rem;
+  }
+
+  .site-dedication{
+    font-size: 1rem;
+  }
+}
+
+/* Media Queries for Tablets */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .icon-wrapper {
+    gap: 100px;
+    display: flex;
+    justify-content: center; 
+  }
+
+  .contact-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 270px;
+  }
+
+  .site-dedication{
+    font-size: 1rem;
+  }
+}
