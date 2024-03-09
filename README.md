@@ -26,13 +26,14 @@ ChatApp is a real-time chat application designed to connect people and groups ba
    git clone https://github.com/your-username/ChatApp.git
    cd ChatApp
 
-# Backend
+# Backend 🗄️
 
-## Backend DataBase Schema
+## Backend DataBase Schema 📐
 
 ![Alt text](<DB.png>)
 
-## Node Modules Functions:
+## Node Modules Functions: 🔧
+
 
 #### UID.js
 
@@ -83,15 +84,15 @@ ChatApp is a real-time chat application designed to connect people and groups ba
 
 
 
-# Frontend(React)
+# Frontend(React) 📺
 
-## Homepage
+## Homepage 🏠
 ![Homepage](<FrontendChatApp.png>)
 
-## Auth0
+## Auth0 🔒
 ![Auth0](<Auth0.png>)
 
-## ChatWindow
+## ChatWindow 🐦🪟
 ![ChatWindow](<ChatAppFrontend3.png>)
 
 ![ChatWindow](<ChatWindow1.png>)
