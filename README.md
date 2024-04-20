@@ -28,7 +28,7 @@ ChatApp is a real-time chat application designed to connect people and groups ba
 
 # Backend 🗄️
 
-## Backend DataBase Schema 📐
+## Backend DataBase Schema && LLD Design 📐
 
 ![Alt text](<DB.png>)
 
@@ -87,15 +87,15 @@ ChatApp is a real-time chat application designed to connect people and groups ba
 # Frontend(React) 📺
 
 ## Homepage 🏠
-![Homepage](<FrontendChatApp.png>)
+![Homepage](<temp2.png>)
 
 ## Auth0 🔒
 ![Auth0](<Auth0.png>)
 
 ## ChatWindow 🐦🪟
-![ChatWindow](<ChatAppFrontend3.png>)
+![ChatWindow](<temp1.png>)
 
-![ChatWindow](<ChatWindow1.png>)
+![ChatWindow](<temp3.png>)
 
 ## Home Component
 
