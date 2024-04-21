@@ -29,12 +29,14 @@ ChatApp is a real-time chat application designed to connect people and groups ba
 #### Run the Backend:
 2.  ```bash
     cd chatappbackend
+    cp .sample.env .env
     npm install 
     npm start
 
 ### Run the frontend:
 3. ```bash
    cd chatappfrontend
+   cp .sample.env .env
    npm install 
    npm run dev 
 
