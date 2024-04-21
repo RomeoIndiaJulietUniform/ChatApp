@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedin, FaGoogle, FaArrowLeft } from 'react-icons/fa';
 import io from 'socket.io-client';
 import NewsCrawl from './NewsCrawl';
 
+
 const ChatWindow = (props) => {
   const { user } = useAuth0();
   const [messages, setMessages] = useState([]);
@@ -56,6 +57,9 @@ const ChatWindow = (props) => {
       });
     }
   }, [socket, curUid]);
+
+
+
 
   useEffect(() => {
     const handleResize = () => {
@@ -112,7 +116,7 @@ const ChatWindow = (props) => {
         console.log('Received data:', data);
         const len = data.length;
         for(let i = 0; i < len ; i++){
-          setMessages(prevMessages => [...prevMessages, data[i]]);
+          setMessages(prevMessages => [...prevMessages, data[i]]); 
         }
         
       } else {
@@ -173,7 +177,9 @@ return (
           {isMobile && <FaArrowLeft className='back-button' onClick={handleBackButtonClick} />}
           <h3>{contactName}</h3>
         </div>
-        <NewsCrawl/>
+        <div className='news_crawl' >
+        <NewsCrawl />
+        </div>
         <div className='chat-messages'>
           {sortedMessages.map((message, index) => (
             <p 
@@ -205,7 +211,7 @@ return (
       <div className="contact-section">
         <h2>Contact Me</h2>
         <div className="icon-container">
-          <a href="https://github.com/RomeoIndiaJulietUniform" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/RomeoIndiaJulietUniform/ChatApp" target="_blank" rel="noopener noreferrer">
             <FaGithub className="icon" />
           </a>
           <a href="https://www.linkedin.com/in/riju-mondal-137686244/" target="_blank" rel="noopener noreferrer">
@@ -223,7 +229,6 @@ return (
           </div>
         </div>
       </div>
-      <NewsCrawl className="newscrawl"/>
       </div>
     )}
   </div>
