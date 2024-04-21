@@ -26,6 +26,18 @@ ChatApp is a real-time chat application designed to connect people and groups ba
    git clone https://github.com/your-username/ChatApp.git
    cd ChatApp
 
+#### Run the Backend:
+2.  ```bash
+    cd chatappbackend
+    npm install 
+    npm start
+
+### Run the frontend:
+3. ```bash
+   cd chatappfrontend
+   npm install 
+   npm run dev 
+
 # Backend 🗄️
 
 ## Backend DataBase Schema && LLD Design 📐
