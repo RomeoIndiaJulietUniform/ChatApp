@@ -1,5 +1,11 @@
 # ChatApp 💬
 
+
+
+
+https://github.com/RomeoIndiaJulietUniform/ChatApp/assets/157402485/5661651d-31bd-472a-b366-ff631eb5e3c8
+
+
 ## Overview ℹ️
 ChatApp is a real-time chat application designed to connect people and groups based on specific unique IDs (UIDs). Unlike traditional messaging apps, ChatApp prioritizes user privacy by not requiring phone number verification. Instead, it utilizes email verification, allowing users to maintain separation between their public and personal lives while respecting their privacy.
 
